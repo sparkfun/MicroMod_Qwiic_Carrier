@@ -24130,45 +24130,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="qwiic_carrier">
-<packages>
-<package name="4-40_1/8_SMD_STANDOFF">
-<description>This is a SMD 1/8 in height standoff for the standard 4-40 screw we suggest for mounting holes.</description>
-<pad name="1" x="0" y="0" drill="4.2164" diameter="6.1976"/>
-<text x="-3.81" y="3.81" size="1.778" layer="25">&gt;Name</text>
-<text x="-3.81" y="-5.08" size="1.778" layer="25">&gt;Value</text>
-</package>
-</packages>
-<symbols>
-<symbol name="4-40_SMD_STANDOFF">
-<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
-<wire x1="0.381" y1="0.889" x2="0.889" y2="0.381" width="0.508" layer="94" curve="-75.963757"/>
-<wire x1="-0.889" y1="0.381" x2="-0.381" y2="0.889" width="0.508" layer="94" curve="-75.963757"/>
-<wire x1="-0.381" y1="-0.889" x2="-0.889" y2="-0.381" width="0.508" layer="94" curve="-75.963757"/>
-<wire x1="0.889" y1="-0.381" x2="0.381" y2="-0.889" width="0.508" layer="94" curve="-75.963757"/>
-<pin name="1" x="0" y="-2.54" visible="off" length="short" rot="R90"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;Name</text>
-<text x="2.54" y="0" size="1.778" layer="96">&gt;Value</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="4-40_SMD_STANDOFF" prefix="U">
-<gates>
-<gate name="U1" symbol="4-40_SMD_STANDOFF" x="0" y="0"/>
-</gates>
-<devices>
-<device name="SMD" package="4-40_1/8_SMD_STANDOFF">
-<connects>
-<connect gate="U1" pin="1" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -24256,10 +24217,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
-<part name="U2" library="qwiic_carrier" deviceset="4-40_SMD_STANDOFF" device="SMD"/>
-<part name="U3" library="qwiic_carrier" deviceset="4-40_SMD_STANDOFF" device="SMD"/>
-<part name="U4" library="qwiic_carrier" deviceset="4-40_SMD_STANDOFF" device="SMD"/>
-<part name="U6" library="qwiic_carrier" deviceset="4-40_SMD_STANDOFF" device="SMD"/>
+<part name="H6" library="SparkFun-Hardware" deviceset="STAND-OFF-REFLOW" device="2.5MM_TALL"/>
+<part name="H7" library="SparkFun-Hardware" deviceset="STAND-OFF-REFLOW" device="2.5MM_TALL"/>
+<part name="H8" library="SparkFun-Hardware" deviceset="STAND-OFF-REFLOW" device="2.5MM_TALL"/>
+<part name="H9" library="SparkFun-Hardware" deviceset="STAND-OFF-REFLOW" device="2.5MM_TALL"/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND11" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND12" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -24300,6 +24261,9 @@ Close only if you know what you're doing.</text>
 <text x="121.92" y="104.14" size="2.54" layer="94" align="center">Qwiic Connector</text>
 <text x="210.82" y="104.14" size="2.54" layer="94" align="center">Buttons</text>
 <text x="304.8" y="182.88" size="2.54" layer="94" align="center">Battery Charger</text>
+<text x="289.56" y="106.68" size="2.54" layer="94" align="center">Stand offs</text>
+<wire x1="254" y1="111.76" x2="330.2" y2="111.76" width="0.2032" layer="97" style="longdash"/>
+<wire x1="330.2" y1="111.76" x2="330.2" y2="38.1" width="0.2032" layer="97" style="longdash"/>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -24536,33 +24500,33 @@ Close only if you know what you're doing.</text>
 <instance part="SUPPLY9" gate="G$1" x="22.86" y="236.22" smashed="yes">
 <attribute name="VALUE" x="22.86" y="239.014" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="U2" gate="U1" x="261.62" y="78.74" smashed="yes">
-<attribute name="NAME" x="259.08" y="81.28" size="1.778" layer="95"/>
-<attribute name="VALUE" x="264.16" y="78.74" size="1.778" layer="96"/>
+<instance part="H6" gate="G$1" x="274.32" y="76.2" smashed="yes">
+<attribute name="NAME" x="271.78" y="78.74" size="1.778" layer="95"/>
+<attribute name="VALUE" x="276.86" y="76.2" size="1.778" layer="96"/>
 </instance>
-<instance part="U3" gate="U1" x="261.62" y="60.96" smashed="yes">
-<attribute name="NAME" x="259.08" y="63.5" size="1.778" layer="95"/>
-<attribute name="VALUE" x="264.16" y="60.96" size="1.778" layer="96"/>
+<instance part="H7" gate="G$1" x="274.32" y="58.42" smashed="yes">
+<attribute name="NAME" x="271.78" y="60.96" size="1.778" layer="95"/>
+<attribute name="VALUE" x="276.86" y="58.42" size="1.778" layer="96"/>
 </instance>
-<instance part="U4" gate="U1" x="261.62" y="43.18" smashed="yes">
-<attribute name="NAME" x="259.08" y="45.72" size="1.778" layer="95"/>
-<attribute name="VALUE" x="264.16" y="43.18" size="1.778" layer="96"/>
+<instance part="H8" gate="G$1" x="274.32" y="40.64" smashed="yes">
+<attribute name="NAME" x="271.78" y="43.18" size="1.778" layer="95"/>
+<attribute name="VALUE" x="276.86" y="40.64" size="1.778" layer="96"/>
 </instance>
-<instance part="U6" gate="U1" x="261.62" y="25.4" smashed="yes">
-<attribute name="NAME" x="259.08" y="27.94" size="1.778" layer="95"/>
-<attribute name="VALUE" x="264.16" y="25.4" size="1.778" layer="96"/>
+<instance part="H9" gate="G$1" x="274.32" y="22.86" smashed="yes">
+<attribute name="NAME" x="271.78" y="25.4" size="1.778" layer="95"/>
+<attribute name="VALUE" x="276.86" y="22.86" size="1.778" layer="96"/>
 </instance>
-<instance part="GND7" gate="1" x="261.62" y="71.12" smashed="yes">
-<attribute name="VALUE" x="261.62" y="70.866" size="1.778" layer="96" align="top-center"/>
+<instance part="GND7" gate="1" x="274.32" y="68.58" smashed="yes">
+<attribute name="VALUE" x="274.32" y="68.326" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND11" gate="1" x="261.62" y="53.34" smashed="yes">
-<attribute name="VALUE" x="261.62" y="53.086" size="1.778" layer="96" align="top-center"/>
+<instance part="GND11" gate="1" x="274.32" y="50.8" smashed="yes">
+<attribute name="VALUE" x="274.32" y="50.546" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND12" gate="1" x="261.62" y="35.56" smashed="yes">
-<attribute name="VALUE" x="261.62" y="35.306" size="1.778" layer="96" align="top-center"/>
+<instance part="GND12" gate="1" x="274.32" y="33.02" smashed="yes">
+<attribute name="VALUE" x="274.32" y="32.766" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND13" gate="1" x="261.62" y="17.78" smashed="yes">
-<attribute name="VALUE" x="261.62" y="17.526" size="1.778" layer="96" align="top-center"/>
+<instance part="GND13" gate="1" x="274.32" y="15.24" smashed="yes">
+<attribute name="VALUE" x="274.32" y="14.986" size="1.778" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -24684,24 +24648,24 @@ Close only if you know what you're doing.</text>
 <pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U2" gate="U1" pin="1"/>
+<pinref part="H6" gate="G$1" pin="1"/>
 <pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="261.62" y1="73.66" x2="261.62" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="71.12" x2="274.32" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U3" gate="U1" pin="1"/>
+<pinref part="H7" gate="G$1" pin="1"/>
 <pinref part="GND11" gate="1" pin="GND"/>
-<wire x1="261.62" y1="55.88" x2="261.62" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="53.34" x2="274.32" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U4" gate="U1" pin="1"/>
+<pinref part="H8" gate="G$1" pin="1"/>
 <pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="261.62" y1="38.1" x2="261.62" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="35.56" x2="274.32" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U6" gate="U1" pin="1"/>
+<pinref part="H9" gate="G$1" pin="1"/>
 <pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="261.62" y1="20.32" x2="261.62" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="17.78" x2="274.32" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
