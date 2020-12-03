@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -24232,7 +24232,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="38.354" y="103.886" size="2.54" layer="94" font="vector" align="center">USB-C</text>
 <text x="58.674" y="263.906" size="2.54" layer="94" font="vector" align="center">Universal MicroMod Connector</text>
 <text x="350.52" y="10.16" size="2.54" layer="94" font="vector">Priyanka Makin</text>
-<text x="342.9" y="17.78" size="2.54" layer="94" font="vector">WeatherStation-MM-Carrier</text>
+<text x="342.9" y="17.78" size="2.54" layer="94" font="vector">MM-Qwiic-Carrier-1x1</text>
 <text x="142.24" y="238.76" size="2.54" layer="94" font="vector" align="center">LED</text>
 <text x="419.1" y="7.62" size="2.54" layer="94" font="vector">v01</text>
 <text x="132.08" y="167.64" size="1.778" layer="97" font="vector">Cut these jumpers to
