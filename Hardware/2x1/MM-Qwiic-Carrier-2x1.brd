@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -195,14 +195,14 @@
 <wire x1="44.185" y1="28.829" x2="44.185" y2="6.731" width="0.2032" layer="21"/>
 <wire x1="44.185" y1="6.731" x2="27.94" y2="6.731" width="0.2032" layer="21"/>
 <text x="36.83" y="-21.59" size="1.778" layer="51" font="vector" ratio="15">Priyanka Makin</text>
-<dimension x1="0" y1="35.56" x2="80.01" y2="35.56" x3="40.005" y3="39.37" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="80.01" y1="35.56" x2="80.01" y2="0" x3="83.82" y3="17.78" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<text x="43.434" y="39.878" size="1.778" layer="47" font="vector" ratio="15">in</text>
-<text x="81.534" y="23.241" size="1.778" layer="47" font="vector" ratio="15" rot="R270">in</text>
-<dimension x1="2.54" y1="33.02" x2="77.47" y2="33.02" x3="40.005" y3="44.45" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="77.47" y1="33.02" x2="77.47" y2="2.54" x3="88.9" y3="17.78" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<text x="43.434" y="44.958" size="1.778" layer="47" font="vector" ratio="15">in</text>
-<text x="86.614" y="23.241" size="1.778" layer="47" font="vector" ratio="15" rot="R270">in</text>
+<text x="57.404" y="39.878" size="1.778" layer="47" font="vector" ratio="15">in</text>
+<text x="110.744" y="23.241" size="1.778" layer="47" font="vector" ratio="15" rot="R270">in</text>
+<text x="57.404" y="43.688" size="1.778" layer="47" font="vector" ratio="15">in</text>
+<text x="114.554" y="23.241" size="1.778" layer="47" font="vector" ratio="15" rot="R270">in</text>
+<dimension x1="0" y1="35.56" x2="107.95" y2="35.56" x3="53.975" y3="43.18" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="2.54" y1="33.02" x2="105.41" y2="33.02" x3="53.975" y3="39.37" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="105.41" y1="33.02" x2="105.41" y2="2.54" x3="113.03" y3="17.78" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="107.95" y1="35.56" x2="107.95" y2="0" x3="116.84" y3="17.78" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -7250,7 +7250,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </element>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.2" value="SFE_LOGO_NAME_FLAME.2_INCH" x="31.75" y="21.59" smashed="yes" rot="MR0"/>
 <element name="U$44" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.2" value="" x="18.034" y="30.607" smashed="yes"/>
-<element name="U$67" library="SparkFun-MicroMod" package="MICROMOD_LOGO_.5" value="" x="62.103" y="33.401" smashed="yes"/>
+<element name="U$67" library="SparkFun-MicroMod" package="MICROMOD_LOGO_.5" value="" x="77.343" y="33.401" smashed="yes"/>
 <element name="U$68" library="SparkFun-MicroMod" package="MICROMOD_LOGO_.5" value="" x="31.75" y="19.05" smashed="yes" rot="MR0"/>
 <element name="J2" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="38.1" y="5.08" smashed="yes">
 <attribute name="NAME" x="36.703" y="2.921" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -7413,7 +7413,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$36" library="buzzard_labels (1)" package="#0" value="" x="1.143" y="17.399" smashed="yes"/>
 <element name="U$37" library="buzzard_labels (1)" package="#0" value="" x="7.366" y="23.495" smashed="yes"/>
 <element name="U$34" library="SparkFun-Boards" package="QWIIC_BOARD_MOUNT_SMD_STANDOFFS" value="QWIIC_BOARD_OUTLINESTANDOFF" x="91.44" y="17.78" smashed="yes"/>
-<element name="U$35" library="output" package="QWIIC_CARRIER_#_2X10" value="" x="51.054" y="2.54" smashed="yes"/>
+<element name="U$35" library="output" package="QWIIC_CARRIER_#_2X10" value="" x="65.024" y="2.54" smashed="yes"/>
 <element name="U$38" library="output" package="QWIIC_CARRIER_#_2X10" value="" x="42.926" y="16.764" smashed="yes" rot="MR0"/>
 </elements>
 <signals>
