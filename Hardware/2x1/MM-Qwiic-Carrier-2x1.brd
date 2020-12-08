@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -32,7 +32,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -195,8 +195,10 @@
 <wire x1="44.185" y1="28.829" x2="44.185" y2="6.731" width="0.2032" layer="21"/>
 <wire x1="44.185" y1="6.731" x2="27.94" y2="6.731" width="0.2032" layer="21"/>
 <text x="36.83" y="-21.59" size="1.778" layer="51" font="vector" ratio="15">Priyanka Makin</text>
-<text x="43.434" y="39.878" size="1.778" layer="47" font="vector" ratio="15">in</text>
-<text x="123.444" y="27.051" size="1.778" layer="47" font="vector" ratio="15" rot="R270">in</text>
+<text x="57.404" y="39.878" size="1.778" layer="47" font="vector" ratio="15">in</text>
+<text x="109.474" y="24.511" size="1.778" layer="47" font="vector" ratio="15" rot="R270">in</text>
+<dimension x1="0" y1="35.56" x2="107.95" y2="35.56" x3="53.975" y3="39.37" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="107.95" y1="35.56" x2="107.95" y2="1.27" x3="111.76" y3="18.415" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
