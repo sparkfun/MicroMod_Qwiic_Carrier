@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -26807,11 +26807,9 @@ holes to measure current draw</text>
 </instance>
 <instance part="TP1" gate="G$1" x="378.46" y="109.22" smashed="yes">
 <attribute name="NAME" x="375.92" y="111.76" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="375.92" y="106.68" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="TP2" gate="G$1" x="378.46" y="99.06" smashed="yes">
 <attribute name="NAME" x="375.92" y="101.6" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="375.92" y="96.52" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="J4" gate="G$1" x="307.34" y="139.7" smashed="yes" rot="R180">
 <attribute name="VALUE" x="309.88" y="144.526" size="1.778" layer="96" font="vector" rot="R180"/>
@@ -26862,7 +26860,7 @@ holes to measure current draw</text>
 <instance part="GND26" gate="1" x="208.28" y="10.16" smashed="yes">
 <attribute name="VALUE" x="208.28" y="9.906" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="U$5" gate="G$1" x="416.56" y="78.74" smashed="yes"/>
+<instance part="U$5" gate="G$1" x="289.56" y="60.96" smashed="yes"/>
 </instances>
 <busses>
 </busses>
