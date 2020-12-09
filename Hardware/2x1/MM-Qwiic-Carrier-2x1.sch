@@ -26525,7 +26525,7 @@ Outline</text>
 <part name="J6" library="SparkFun-Connectors" deviceset="CONN_08" device="NO_SILK_FEMALE_PTH"/>
 <part name="GND26" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="U$5" library="SparkFun-Boards" deviceset="QWIIC_BOARD_OUTLINE" device="STANDOFF"/>
-<part name="U$32" library="SparkFun-Boards" deviceset="QWIIC_BOARD_OUTLINE" device="STANDOFF"/>
+<part name="U$34" library="SparkFun-Boards" deviceset="QWIIC_BOARD_OUTLINE" device="STANDOFF"/>
 </parts>
 <sheets>
 <sheet>
@@ -26541,7 +26541,7 @@ remove power LED.</text>
 <text x="38.1" y="76.2" size="1.9304" layer="97" font="vector">Range: 4.2 - 5.2V</text>
 <text x="299.974" y="271.526" size="2.54" layer="94" font="vector" align="center">Voltage Regulation</text>
 <text x="320.04" y="254" size="1.778" layer="97" font="vector">Range: 2.2 - 6.0V</text>
-<text x="261.62" y="218.44" size="1.778" layer="97">Close this jumper to 
+<text x="261.62" y="218.44" size="1.778" layer="97" font="vector">Close this jumper to 
 control the VREG in 
 super low-power modes</text>
 <text x="223.52" y="259.08" size="1.778" layer="97" font="vector">This is the penny-in-the-fuse jumper.
@@ -26562,21 +26562,21 @@ Close only if you know what you're doing.</text>
 <wire x1="182.88" y1="193.04" x2="330.2" y2="193.04" width="0.2032" layer="97" style="longdash"/>
 <wire x1="330.2" y1="193.04" x2="431.8" y2="193.04" width="0.2032" layer="97" style="longdash"/>
 <wire x1="431.8" y1="193.04" x2="431.8" y2="195.58" width="0.2032" layer="97" style="longdash"/>
-<text x="121.92" y="104.14" size="2.54" layer="94" align="center">Qwiic Connector</text>
-<text x="210.82" y="104.14" size="2.54" layer="94" align="center">Buttons</text>
-<text x="259.08" y="180.34" size="2.54" layer="94" align="center">Battery Charger</text>
-<text x="289.56" y="106.68" size="2.54" layer="94" align="center">Qwiic Stand offs</text>
+<text x="121.92" y="104.14" size="2.54" layer="94" font="vector" align="center">Qwiic Connector</text>
+<text x="210.82" y="104.14" size="2.54" layer="94" font="vector" align="center">Buttons</text>
+<text x="259.08" y="180.34" size="2.54" layer="94" font="vector" align="center">Battery Charger</text>
+<text x="289.56" y="106.68" size="2.54" layer="94" font="vector" align="center">Qwiic Stand offs</text>
 <wire x1="254" y1="111.76" x2="330.2" y2="111.76" width="0.2032" layer="97" style="longdash"/>
 <wire x1="330.2" y1="111.76" x2="330.2" y2="38.1" width="0.2032" layer="97" style="longdash"/>
 <wire x1="330.2" y1="111.76" x2="330.2" y2="132.08" width="0.2032" layer="97" style="longdash"/>
 <wire x1="330.2" y1="132.08" x2="330.2" y2="193.04" width="0.2032" layer="97" style="longdash"/>
 <wire x1="330.2" y1="132.08" x2="431.8" y2="132.08" width="0.2032" layer="97" style="longdash"/>
-<text x="381" y="182.88" size="2.54" layer="94" align="center">Power Source Select</text>
-<text x="381" y="121.92" size="2.54" layer="94" align="center">Test Points</text>
+<text x="381" y="182.88" size="2.54" layer="94" font="vector" align="center">Power Source Select</text>
+<text x="381" y="121.92" size="2.54" layer="94" font="vector" align="center">Test Points</text>
 <text x="111.76" y="25.4" size="1.778" layer="97" font="vector">Qwiic bus conservative 
 max current: 226mA</text>
 <wire x1="170.18" y1="58.42" x2="251.46" y2="58.42" width="0.2032" layer="97" style="longdash"/>
-<text x="208.28" y="50.8" size="2.54" layer="94" align="center">Header</text>
+<text x="208.28" y="50.8" size="2.54" layer="94" font="vector" align="center">Header</text>
 <text x="368.3" y="236.22" size="1.778" layer="97" font="vector">Cut this jumper and use the PTH 
 holes to measure current draw</text>
 </plain>
@@ -26862,7 +26862,7 @@ holes to measure current draw</text>
 <attribute name="VALUE" x="208.28" y="9.906" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="U$5" gate="G$1" x="289.56" y="60.96" smashed="yes"/>
-<instance part="U$32" gate="G$1" x="289.56" y="40.64" smashed="yes"/>
+<instance part="U$34" gate="G$1" x="289.56" y="40.64" smashed="yes"/>
 </instances>
 <busses>
 </busses>
