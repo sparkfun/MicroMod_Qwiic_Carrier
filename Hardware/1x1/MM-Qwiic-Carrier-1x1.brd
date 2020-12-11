@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
@@ -40,7 +40,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
@@ -195,14 +195,18 @@
 <wire x1="44.185" y1="28.829" x2="44.185" y2="6.731" width="0.2032" layer="21"/>
 <wire x1="44.185" y1="6.731" x2="27.94" y2="6.731" width="0.2032" layer="21"/>
 <text x="36.83" y="-21.59" size="1.778" layer="51" font="vector" ratio="15">Priyanka Makin</text>
-<dimension x1="0" y1="35.56" x2="80.01" y2="35.56" x3="40.005" y3="39.37" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="80.01" y1="35.56" x2="80.01" y2="0" x3="83.82" y3="17.78" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<text x="43.434" y="39.878" size="1.778" layer="47" font="vector" ratio="15">in</text>
+<dimension x1="0" y1="35.56" x2="80.01" y2="35.56" x3="40.005" y3="45.72" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="80.01" y1="35.56" x2="80.01" y2="0" x3="91.44" y3="17.78" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<text x="43.434" y="42.418" size="1.778" layer="47" font="vector" ratio="15">in</text>
+<text x="85.344" y="23.241" size="1.778" layer="47" font="vector" ratio="15" rot="R270">in</text>
+<dimension x1="2.54" y1="33.02" x2="77.47" y2="33.02" x3="40.005" y3="41.91" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="77.47" y1="33.02" x2="77.47" y2="2.54" x3="87.63" y3="17.78" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<text x="43.434" y="46.228" size="1.778" layer="47" font="vector" ratio="15">in</text>
+<text x="89.154" y="23.241" size="1.778" layer="47" font="vector" ratio="15" rot="R270">in</text>
+<dimension x1="52.07" y1="27.94" x2="72.39" y2="27.94" x3="62.23" y3="38.1" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="72.39" y1="27.94" x2="72.39" y2="7.62" x3="83.82" y3="17.78" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <text x="81.534" y="23.241" size="1.778" layer="47" font="vector" ratio="15" rot="R270">in</text>
-<dimension x1="2.54" y1="33.02" x2="77.47" y2="33.02" x3="40.005" y3="44.45" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="77.47" y1="33.02" x2="77.47" y2="2.54" x3="88.9" y3="17.78" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<text x="43.434" y="44.958" size="1.778" layer="47" font="vector" ratio="15">in</text>
-<text x="86.614" y="23.241" size="1.778" layer="47" font="vector" ratio="15" rot="R270">in</text>
+<text x="65.024" y="38.608" size="1.778" layer="47" font="vector" ratio="15">in</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -7197,8 +7201,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="LOGO2" library="SparkFun-Aesthetics" package="QWIIC_5.5MM" value="QWIIC_LOGO_CONNECTOR" x="33.401" y="3.1115" smashed="yes" rot="R90"/>
 <element name="LOGO3" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="31.623" y="10.922" smashed="yes" rot="MR0"/>
 <element name="U$55" library="buzzard_labels (9)" package="22229" value="" x="26.962" y="5.72" smashed="yes"/>
-<element name="H5" library="SparkFun-Hardware" package="STAND-OFF-REFLOW-M2.5" value="STAND-OFF-REFLOW2.5MM_TALL" x="44.2" y="13.76" smashed="yes">
-<attribute name="PROD_ID" value="HW-14899" x="44.2" y="13.76" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="H5" library="SparkFun-Hardware" package="STAND-OFF-REFLOW-M2.5" value="STAND-OFF-REFLOW2.5MM_TALL" x="44.073" y="13.76" smashed="yes">
+<attribute name="PROD_ID" value="HW-14899" x="44.073" y="13.76" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
 <element name="JP4" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="3V3 LED" x="15.24" y="33.655" smashed="yes" rot="MR0">
 <attribute name="NAME" x="15.24" y="34.798" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
