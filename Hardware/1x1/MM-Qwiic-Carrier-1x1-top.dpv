@@ -1,0 +1,65 @@
+separated
+FILE,SparkFun_Conversion_Script.dpv
+PCBFILE,SparkFun_Conversion_Script
+DATE,2017/11/27
+TIME,14:42:01
+PANELYPE,1
+
+
+Table,No.,ID,DeltX,DeltY,FeedRates,Note,Height,Speed,Status,SizeX,SizeY
+Station, 0, 4, 0.83 , -0.29 , 4 , 1.0uF-0603 , 0.5 , 0 , 6,  0,  0
+Station, 1, 5, 0.72 , -0.36 , 4 , 0.1uF-0603 , 0.5 , 0 , 6,  0,  0
+Station, 2, 8, 0.83 , -0.41 , 4 , 2.2k-0603 , 0.5 , 0 , 6,  0,  0
+Station, 3, 9, 0.81 , -0.36 , 4 , 1k-0603 , 0.5 , 0 , 6,  0,  0
+Station, 4, 10, 0.78 , -0.33 , 4 , RED-0603 , 0.5 , 0 , 6,  0,  0
+Station, 5, 12, 0.99 , -0.44 , 4 , 10uF-0603 , 0.5 , 0 , 6,  0,  0
+Station, 6, 13, 0 , 0 , 4 , 4.7uF-0603 , 0.5 , 0 , 6,  0,  0
+Station, 7, 14, 0 , 0 , 4 , 0.22uF-0603 , 0.5 , 0 , 6,  0,  0
+Station, 8, 17, 0.82 , -0.45 , 4 , 3.3V-SOD-323 , 0.5 , 0 , 6,  0,  0
+Station, 9, 19, 0 , 0 , 4 , Yellow-0603 , 0.5 , 0 , 6,  0,  0
+Station, 10, 22, 0 , 0 , 4 , 100K-0603 , 0.5 , 0 , 6,  0,  0
+Station, 11, 27, 1.49 , -0.32 , 12 , Qwiic-Connector , 0.5 , 0 , 6,  0,  0
+
+Table,No.,ID,IntervalX,IntervalY,NumX,NumY
+Panel_Array,0,1,0,0,1,1
+
+Table,No.,ID,PHead,STNo.,DeltX,DeltY,Angle,Height,Skip,Speed,Explain,Note
+EComponent, 0, 1, 1 , 5, 11.09, 17.14, -90.00, 0.50, 6, 0, C1, 0.1uF-0603 
+EComponent, 1, 2, 1 , 13, 12.95, 29.21, 0.00, 0.50, 6, 0, C3, 4.7uF-0603 
+EComponent, 2, 3, 1 , 13, 13.97, 22.35, -90.00, 0.50, 6, 0, C4, 4.7uF-0603 
+EComponent, 3, 4, 1 , 12, 12.32, 8.47, 180.00, 0.50, 6, 0, C9, 10uF-0603 
+EComponent, 4, 5, 1 , 4, 13.84, 8.47, 180.00, 0.50, 6, 0, C10, 1.0uF-0603 
+EComponent, 5, 6, 1 , 14, 15.37, 8.47, 180.00, 0.50, 6, 0, C11, 0.22uF-0603 
+EComponent, 6, 7, 1 , 14, 11.09, 15.62, -90.00, 0.50, 6, 0, C13, 0.22uF-0603 
+EComponent, 7, 8, 1 , 17, 15.62, 12.70, 0.00, 0.50, 6, 0, D1, 3.3V-SOD-323 
+EComponent, 8, 9, 1 , 10, 11.43, 33.66, 90.00, 0.50, 6, 0, D2, RED-0603 
+EComponent, 9, 10, 1 , 19, 11.43, 31.75, -90.00, 0.50, 6, 0, D4, Yellow-0603 
+EComponent, 10, 11, 2 , 27, 38.10, 3.24, -90.00, 0.50, 6, 0, J2, Qwiic-Connector 
+EComponent, 11, 12, 1 , 8, 17.14, 25.40, 180.00, 0.50, 6, 0, R1, 2.2k-0603 
+EComponent, 12, 13, 1 , 9, 14.99, 29.21, 180.00, 0.50, 6, 0, R4, 1k-0603 
+EComponent, 13, 14, 1 , 22, 13.97, 12.70, 180.00, 0.50, 6, 0, R5, 100K-0603 
+EComponent, 14, 15, 1 , 9, 15.24, 33.66, -90.00, 0.50, 6, 0, R11, 1k-0603 
+
+Table,No.,ID,CenterX,CenterY,IntervalX,IntervalY,NumX,NumY,Start
+ICTray,0,88, 205.50, 60.50, 349.50, 60.50, 7 , 1 , 0
+ICTray,1,89, 206.00, 36.00, 346.00, 36.00, 6 , 1 , 0
+ICTray,2,90, 205.50, 60.50, 229.50, 60.50, 2 , 1 , 0
+ICTray,3,91, 253.50, 60.50, 277.50, 60.50, 2 , 1 , 0
+ICTray,4,92, 301.50, 60.50, 349.50, 60.50, 3 , 1 , 0
+ICTray,5,93, 206.00, 36.00, 234.00, 36.00, 2 , 1 , 0
+ICTray,6,94, 262.00, 36.00, 290.00, 36.00, 2 , 1 , 0
+ICTray,7,95, 318.00, 36.00, 346.00, 36.00, 2 , 1 , 0
+ICTray,8,96, 0.00, 0.00, 0.00, 0.00,  ,  , 0
+ICTray,9,97, 0.00, 0.00, 0.00, 0.00,  ,  , 0
+ICTray,10,98, 0.00, 0.00, 0.00, 0.00,  ,  , 0
+ICTray,11,99, 0.00, 0.00, 0.00, 0.00,  ,  , 0
+
+Table,No.,nType,nAlg,nFinished
+PcbCalib,0,1,0,0
+
+Table,No.,ID,offsetX,offsetY,Note
+CalibPoint,0,1,0.76,0.76,FD1
+CalibPoint,1,2,79.25,34.93,FD2
+
+Table,No.,DeltX,DeltY,AlphaX,AlphaY,BetaX,BetaY,DeltaAngle
+CalibFator,0,0,0,0,0,1,1,0
