@@ -26468,7 +26468,7 @@ Outline</text>
 <text x="350.52" y="10.16" size="2.54" layer="94" font="vector">Priyanka Makin</text>
 <text x="342.9" y="17.78" size="2.54" layer="94" font="vector">MM-Qwiic-Carrier-1x1</text>
 <text x="142.24" y="238.76" size="2.54" layer="94" font="vector" align="center">LED</text>
-<text x="419.1" y="7.62" size="2.54" layer="94" font="vector">v01</text>
+<text x="419.1" y="7.62" size="2.54" layer="94" font="vector">v10</text>
 <text x="132.08" y="167.64" size="1.778" layer="97" font="vector">Cut this jumper to
 remove power LED.</text>
 <text x="38.1" y="76.2" size="1.9304" layer="97" font="vector">Range: 4.2 - 5.2V</text>
@@ -26512,6 +26512,7 @@ max current: 226mA</text>
 <text x="208.28" y="50.8" size="2.54" layer="94" font="vector" align="center">Header</text>
 <text x="368.3" y="236.22" size="1.778" layer="97" font="vector">Cut this jumper and use the PTH 
 holes to measure current draw</text>
+<text x="292.1" y="165.1" size="1.778" layer="97" font="vector">LiPo range: 3.6-4.2V</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
