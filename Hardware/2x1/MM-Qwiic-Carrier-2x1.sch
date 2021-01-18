@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -26222,6 +26222,102 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pad name="2" x="10.16" y="10.16" drill="4.2164" diameter="6.1976"/>
 <pad name="3" x="-10.16" y="-10.16" drill="4.2164" diameter="6.1976"/>
 <pad name="4" x="10.16" y="-10.16" drill="4.2164" diameter="6.1976"/>
+<polygon width="0.1" layer="31">
+<vertex x="-12.314" y="10.56" curve="-74.087907"/>
+<vertex x="-10.56" y="12.314"/>
+<vertex x="-10.56" y="13.16" curve="76.512269"/>
+<vertex x="-13.16" y="10.56"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="-9.76" y="12.314" curve="-74.087907"/>
+<vertex x="-8.006" y="10.56"/>
+<vertex x="-7.16" y="10.56" curve="76.512269"/>
+<vertex x="-9.76" y="13.16"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="-10.56" y="8.006" curve="-74.087907"/>
+<vertex x="-12.314" y="9.76"/>
+<vertex x="-13.16" y="9.76" curve="76.512269"/>
+<vertex x="-10.56" y="7.16"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="-8.006" y="9.76" curve="-74.087907"/>
+<vertex x="-9.76" y="8.006"/>
+<vertex x="-9.76" y="7.16" curve="76.512269"/>
+<vertex x="-7.16" y="9.76"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="10.56" y="12.314" curve="-74.087907"/>
+<vertex x="12.314" y="10.56"/>
+<vertex x="13.16" y="10.56" curve="76.512269"/>
+<vertex x="10.56" y="13.16"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="10.56" y="-8.006" curve="-74.087907"/>
+<vertex x="12.314" y="-9.76"/>
+<vertex x="13.16" y="-9.76" curve="76.512269"/>
+<vertex x="10.56" y="-7.16"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="-9.76" y="-8.006" curve="-74.087907"/>
+<vertex x="-8.006" y="-9.76"/>
+<vertex x="-7.16" y="-9.76" curve="76.512269"/>
+<vertex x="-9.76" y="-7.16"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="-12.314" y="-9.76" curve="-74.087907"/>
+<vertex x="-10.56" y="-8.006"/>
+<vertex x="-10.56" y="-7.16" curve="76.512269"/>
+<vertex x="-13.16" y="-9.76"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="8.006" y="-9.76" curve="-74.087907"/>
+<vertex x="9.76" y="-8.006"/>
+<vertex x="9.76" y="-7.16" curve="76.512269"/>
+<vertex x="7.16" y="-9.76"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="8.006" y="10.56" curve="-74.087907"/>
+<vertex x="9.76" y="12.314"/>
+<vertex x="9.76" y="13.16" curve="76.512269"/>
+<vertex x="7.16" y="10.56"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="12.314" y="9.76" curve="-74.087907"/>
+<vertex x="10.56" y="8.006"/>
+<vertex x="10.56" y="7.16" curve="76.512269"/>
+<vertex x="13.16" y="9.76"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="12.314" y="-10.56" curve="-74.087907"/>
+<vertex x="10.56" y="-12.314"/>
+<vertex x="10.56" y="-13.16" curve="76.512269"/>
+<vertex x="13.16" y="-10.56"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="-8.006" y="-10.56" curve="-74.087907"/>
+<vertex x="-9.76" y="-12.314"/>
+<vertex x="-9.76" y="-13.16" curve="76.512269"/>
+<vertex x="-7.16" y="-10.56"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="-10.56" y="-12.314" curve="-74.087907"/>
+<vertex x="-12.314" y="-10.56"/>
+<vertex x="-13.16" y="-10.56" curve="76.512269"/>
+<vertex x="-10.56" y="-13.16"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="9.76" y="-12.314" curve="-74.087907"/>
+<vertex x="8.006" y="-10.56"/>
+<vertex x="7.16" y="-10.56" curve="76.512269"/>
+<vertex x="9.76" y="-13.16"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="9.76" y="8.006" curve="-74.087907"/>
+<vertex x="8.006" y="9.76"/>
+<vertex x="7.16" y="9.76" curve="76.512269"/>
+<vertex x="9.76" y="7.16"/>
+</polygon>
 </package>
 </packages>
 <symbols>
