@@ -25879,7 +25879,8 @@ Outline</text>
 remove power LED.</text>
 <text x="38.1" y="76.2" size="1.9304" layer="97" font="vector">Range: 4.2 - 5.2V</text>
 <text x="299.974" y="271.526" size="2.54" layer="94" font="vector" align="center">Voltage Regulation</text>
-<text x="320.04" y="254" size="1.778" layer="97" font="vector">Range: 2.2 - 6.0V</text>
+<text x="320.04" y="254" size="1.778" layer="97" font="vector">Range: 2.2 - 6.0V
+Max Output Current: 1A</text>
 <text x="261.62" y="218.44" size="1.778" layer="97" font="vector">Close this jumper to 
 control the VREG in 
 super low-power modes</text>
