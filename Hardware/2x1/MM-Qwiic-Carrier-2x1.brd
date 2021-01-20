@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -24,7 +24,7 @@
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -195,18 +195,20 @@
 <wire x1="44.185" y1="28.829" x2="44.185" y2="6.731" width="0.2032" layer="21"/>
 <wire x1="44.185" y1="6.731" x2="27.94" y2="6.731" width="0.2032" layer="21"/>
 <text x="36.83" y="-21.59" size="1.778" layer="51" font="vector" ratio="15">Priyanka Makin</text>
-<dimension x1="0" y1="35.56" x2="80.01" y2="35.56" x3="40.005" y3="45.72" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="80.01" y1="35.56" x2="80.01" y2="0" x3="91.44" y3="17.78" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<text x="43.434" y="42.418" size="1.778" layer="47" font="vector" ratio="15">in</text>
-<text x="85.344" y="23.241" size="1.778" layer="47" font="vector" ratio="15" rot="R270">in</text>
-<dimension x1="2.54" y1="33.02" x2="77.47" y2="33.02" x3="40.005" y3="41.91" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="77.47" y1="33.02" x2="77.47" y2="2.54" x3="87.63" y3="17.78" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<text x="43.434" y="46.228" size="1.778" layer="47" font="vector" ratio="15">in</text>
-<text x="89.154" y="23.241" size="1.778" layer="47" font="vector" ratio="15" rot="R270">in</text>
+<text x="58.674" y="42.418" size="1.778" layer="47" font="vector" ratio="15">in</text>
+<text x="114.554" y="23.241" size="1.778" layer="47" font="vector" ratio="15" rot="R270">in</text>
+<text x="57.404" y="46.228" size="1.778" layer="47" font="vector" ratio="15">in</text>
+<text x="118.364" y="23.241" size="1.778" layer="47" font="vector" ratio="15" rot="R270">in</text>
 <dimension x1="52.07" y1="27.94" x2="72.39" y2="27.94" x3="62.23" y3="38.1" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="72.39" y1="27.94" x2="72.39" y2="7.62" x3="83.82" y3="17.78" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<text x="81.534" y="23.241" size="1.778" layer="47" font="vector" ratio="15" rot="R270">in</text>
+<text x="110.744" y="23.241" size="1.778" layer="47" font="vector" ratio="15" rot="R270">in</text>
 <text x="65.024" y="38.608" size="1.778" layer="47" font="vector" ratio="15">in</text>
+<dimension x1="2.54" y1="33.02" x2="106.68" y2="33.02" x3="54.61" y3="41.91" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="0" y1="35.56" x2="109.22" y2="35.56" x3="54.61" y3="45.72" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="102.87" y1="27.94" x2="102.87" y2="7.62" x3="113.03" y3="17.78" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="106.68" y1="33.02" x2="106.68" y2="2.54" x3="116.84" y3="17.78" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="109.22" y1="35.56" x2="109.22" y2="0" x3="120.65" y3="17.78" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="82.55" y1="27.94" x2="102.87" y2="27.94" x3="92.71" y3="38.1" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<text x="95.504" y="38.608" size="1.778" layer="47" font="vector" ratio="15">in</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
