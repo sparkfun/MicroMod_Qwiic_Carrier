@@ -25865,6 +25865,7 @@ Outline</text>
 <part name="SUPPLY16" library="SparkFun-PowerSymbols" deviceset="V_USB_2" device=""/>
 <part name="J6" library="SparkFun-Connectors" deviceset="CONN_09" device="NO_SILK"/>
 <part name="SUPPLY17" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="U$2" library="SparkFun-Boards" deviceset="QWIIC_BOARD_OUTLINE" device="STANDOFF"/>
 </parts>
 <sheets>
 <sheet>
@@ -25872,7 +25873,7 @@ Outline</text>
 <text x="38.354" y="103.886" size="2.54" layer="94" font="vector" align="center">USB-C</text>
 <text x="58.674" y="263.906" size="2.54" layer="94" font="vector" align="center">Universal MicroMod Connector</text>
 <text x="350.52" y="10.16" size="2.54" layer="94" font="vector">Priyanka Makin</text>
-<text x="342.9" y="17.78" size="2.54" layer="94" font="vector">MM-Qwiic-Carrier-1x1</text>
+<text x="342.9" y="17.78" size="2.54" layer="94" font="vector">MM-Qwiic-Carrier-Double</text>
 <text x="142.24" y="238.76" size="2.54" layer="94" font="vector" align="center">LED</text>
 <text x="419.1" y="7.62" size="2.54" layer="94" font="vector">v10</text>
 <text x="132.08" y="167.64" size="1.778" layer="97" font="vector">Cut this jumper to
@@ -26209,6 +26210,7 @@ holes to measure current draw</text>
 <instance part="SUPPLY17" gate="G$1" x="208.28" y="35.56" smashed="yes">
 <attribute name="VALUE" x="208.28" y="38.354" size="1.778" layer="96" align="bottom-center"/>
 </instance>
+<instance part="U$2" gate="G$1" x="289.56" y="83.82" smashed="yes"/>
 </instances>
 <busses>
 </busses>

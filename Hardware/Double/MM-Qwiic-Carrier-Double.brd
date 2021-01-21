@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -40,7 +40,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
@@ -7736,7 +7736,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="VALUE" x="24.13" y="5.969" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="QWIIC_5.5MM" value="QWIIC_LOGO_CONNECTOR" x="33.401" y="3.1115" smashed="yes" rot="R90"/>
-<element name="LOGO3" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="31.623" y="10.922" smashed="yes" rot="MR0"/>
+<element name="LOGO3" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="92.583" y="9.652" smashed="yes" rot="MR0"/>
 <element name="H5" library="SparkFun-Hardware" package="STAND-OFF-REFLOW-M2.5" value="STAND-OFF-REFLOW2.5MM_TALL" x="44.073" y="13.76" smashed="yes">
 <attribute name="PROD_ID" value="HW-14899" x="44.073" y="13.76" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
@@ -7759,10 +7759,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CONN-14877" x="24.13" y="17.78" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="23.495" y="17.78" size="0.762" layer="27" rot="R270" align="center"/>
 </element>
-<element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.2" value="SFE_LOGO_NAME_FLAME.2_INCH" x="31.75" y="22.225" smashed="yes" rot="MR0"/>
+<element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.2" value="SFE_LOGO_NAME_FLAME.2_INCH" x="92.71" y="19.685" smashed="yes" rot="MR0"/>
 <element name="U$44" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.2" value="" x="18.034" y="30.607" smashed="yes"/>
 <element name="U$67" library="SparkFun-MicroMod" package="MICROMOD_LOGO_.5" value="" x="77.343" y="33.401" smashed="yes"/>
-<element name="U$68" library="SparkFun-MicroMod" package="MICROMOD_LOGO_.5" value="" x="31.75" y="19.685" smashed="yes" rot="MR0"/>
+<element name="U$68" library="SparkFun-MicroMod" package="MICROMOD_LOGO_.5" value="" x="92.71" y="17.145" smashed="yes" rot="MR0"/>
 <element name="J2" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="38.1" y="5.08" smashed="yes">
 <attribute name="NAME" x="36.703" y="2.921" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-13694" x="38.1" y="5.08" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
@@ -7927,7 +7927,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$16" library="output" package="##INT##0" value="" x="27.94" y="29.845" smashed="yes" rot="MR90"/>
 <element name="U$2" library="SparkFun-Boards" package="QWIIC_BOARD_MOUNT_SMD_STANDOFFS" value="QWIIC_BOARD_OUTLINESTANDOFF" x="92.71" y="17.78" smashed="yes"/>
 <element name="U$10" library="output" package="QWIIC_CARRIER_#_DOUBLE0" value="" x="64.262" y="2.54" smashed="yes"/>
-<element name="U$13" library="output" package="QWIIC_CARRIER_#_DOUBLE0" value="" x="44.958" y="17.653" smashed="yes" rot="MR0"/>
+<element name="U$13" library="output" package="QWIIC_CARRIER_#_DOUBLE0" value="" x="105.918" y="15.113" smashed="yes" rot="MR0"/>
 </elements>
 <signals>
 <signal name="GND">
