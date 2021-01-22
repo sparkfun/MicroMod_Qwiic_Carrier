@@ -7637,7 +7637,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <class number="0" name="default" width="0.000153125" drill="0.00030625">
 </class>
 </classes>
-<designrules name="MM-Qwiic-Carrier-2x1">
+<designrules name="MM-Qwiic-Carrier-Double">
 <description language="en">&lt;b&gt;SparkFun 2 Layer Design Rule Checks - STANDARD/TIGHT/FAB-LIMIT&lt;/b&gt;
 &lt;p&gt;
 These rules have been curated by SparkFuns DFM commitee. After doing much research, communicating with our multiple fab houses, and getting quotes of various designs, we have compiled three DRU files. 
@@ -7865,7 +7865,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="VALUE" x="24.13" y="5.969" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="QWIIC_5.5MM" value="QWIIC_LOGO_CONNECTOR" x="33.401" y="3.1115" smashed="yes" rot="R90"/>
-<element name="LOGO3" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="31.623" y="10.922" smashed="yes" rot="MR0"/>
+<element name="LOGO3" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="92.583" y="9.652" smashed="yes" rot="MR0"/>
 <element name="H5" library="SparkFun-Hardware" package="STAND-OFF-REFLOW-M2.5" value="STAND-OFF-REFLOW2.5MM_TALL" x="44.073" y="13.76" smashed="yes">
 <attribute name="PROD_ID" value="HW-14899" x="44.073" y="13.76" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
@@ -7888,10 +7888,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CONN-14877" x="24.13" y="17.78" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="23.495" y="17.78" size="0.762" layer="27" rot="R270" align="center"/>
 </element>
-<element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.2" value="SFE_LOGO_NAME_FLAME.2_INCH" x="31.75" y="22.225" smashed="yes" rot="MR0"/>
+<element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.2" value="SFE_LOGO_NAME_FLAME.2_INCH" x="92.71" y="19.685" smashed="yes" rot="MR0"/>
 <element name="U$44" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.2" value="" x="18.034" y="30.607" smashed="yes"/>
 <element name="U$67" library="SparkFun-MicroMod" package="MICROMOD_LOGO_.5" value="" x="77.343" y="33.401" smashed="yes"/>
-<element name="U$68" library="SparkFun-MicroMod" package="MICROMOD_LOGO_.5" value="" x="31.75" y="19.685" smashed="yes" rot="MR0"/>
+<element name="U$68" library="SparkFun-MicroMod" package="MICROMOD_LOGO_.5" value="" x="92.71" y="17.145" smashed="yes" rot="MR0"/>
 <element name="J2" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="38.1" y="5.08" smashed="yes">
 <attribute name="NAME" x="36.703" y="2.921" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-13694" x="38.1" y="5.08" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
@@ -8056,7 +8056,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$16" library="output" package="##INT##0" value="" x="27.94" y="29.845" smashed="yes" rot="MR90"/>
 <element name="U$2" library="SparkFun-Boards" package="QWIIC_BOARD_MOUNT_SMD_STANDOFFS" value="QWIIC_BOARD_OUTLINESTANDOFF" x="92.71" y="17.78" smashed="yes"/>
 <element name="U$10" library="output" package="QWIIC_CARRIER_#_DOUBLE0" value="" x="64.262" y="2.54" smashed="yes"/>
-<element name="U$13" library="output" package="QWIIC_CARRIER_#_DOUBLE0" value="" x="44.958" y="17.653" smashed="yes" rot="MR0"/>
+<element name="U$13" library="output" package="QWIIC_CARRIER_#_DOUBLE0" value="" x="105.918" y="15.113" smashed="yes" rot="MR0"/>
 <element name="J7" library="SparkFun-Connectors" package="USB-C-16P-2LAYER-PADS" value="" x="115.951" y="10.668" smashed="yes" rot="R270">
 <attribute name="NAME" x="113.411" y="10.668" size="0.762" layer="25" rot="R270" align="center"/>
 <attribute name="PROD_ID" value="CONN-14122" x="115.951" y="10.668" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
@@ -8102,7 +8102,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="VALUE" x="133.858" y="5.969" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="LOGO4" library="SparkFun-Aesthetics" package="QWIIC_5.5MM" value="QWIIC_LOGO_CONNECTOR" x="143.129" y="3.1115" smashed="yes" rot="R90"/>
-<element name="LOGO5" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="141.351" y="10.922" smashed="yes" rot="MR0"/>
+<element name="LOGO5" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="202.311" y="9.652" smashed="yes" rot="MR0"/>
 <element name="H10" library="SparkFun-Hardware" package="STAND-OFF-REFLOW-M2.5" value="STAND-OFF-REFLOW2.5MM_TALL" x="153.801" y="13.76" smashed="yes">
 <attribute name="PROD_ID" value="HW-14899" x="153.801" y="13.76" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
@@ -8125,10 +8125,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CONN-14877" x="133.858" y="17.78" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="133.223" y="17.78" size="0.762" layer="27" rot="R270" align="center"/>
 </element>
-<element name="LOGO6" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.2" value="SFE_LOGO_NAME_FLAME.2_INCH" x="141.478" y="22.225" smashed="yes" rot="MR0"/>
+<element name="LOGO6" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.2" value="SFE_LOGO_NAME_FLAME.2_INCH" x="202.438" y="19.685" smashed="yes" rot="MR0"/>
 <element name="U$19" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.2" value="" x="127.762" y="30.607" smashed="yes"/>
 <element name="U$39" library="SparkFun-MicroMod" package="MICROMOD_LOGO_.5" value="" x="187.071" y="33.401" smashed="yes"/>
-<element name="U$40" library="SparkFun-MicroMod" package="MICROMOD_LOGO_.5" value="" x="141.478" y="19.685" smashed="yes" rot="MR0"/>
+<element name="U$40" library="SparkFun-MicroMod" package="MICROMOD_LOGO_.5" value="" x="202.438" y="17.145" smashed="yes" rot="MR0"/>
 <element name="J9" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="147.828" y="5.08" smashed="yes">
 <attribute name="NAME" x="146.431" y="2.921" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-13694" x="147.828" y="5.08" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
@@ -8293,7 +8293,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$77" library="output" package="##INT##0" value="" x="137.668" y="29.845" smashed="yes" rot="MR90"/>
 <element name="U$78" library="SparkFun-Boards" package="QWIIC_BOARD_MOUNT_SMD_STANDOFFS" value="QWIIC_BOARD_OUTLINESTANDOFF" x="202.438" y="17.78" smashed="yes"/>
 <element name="U$79" library="output" package="QWIIC_CARRIER_#_DOUBLE0" value="" x="173.99" y="2.54" smashed="yes"/>
-<element name="U$80" library="output" package="QWIIC_CARRIER_#_DOUBLE0" value="" x="154.686" y="17.653" smashed="yes" rot="MR0"/>
+<element name="U$80" library="output" package="QWIIC_CARRIER_#_DOUBLE0" value="" x="215.646" y="15.113" smashed="yes" rot="MR0"/>
 <element name="J14" library="SparkFun-Connectors" package="USB-C-16P-2LAYER-PADS" value="" x="6.223" y="46.736" smashed="yes" rot="R270">
 <attribute name="NAME" x="3.683" y="46.736" size="0.762" layer="25" rot="R270" align="center"/>
 <attribute name="PROD_ID" value="CONN-14122" x="6.223" y="46.736" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
@@ -8339,7 +8339,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="VALUE" x="24.13" y="42.037" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="LOGO7" library="SparkFun-Aesthetics" package="QWIIC_5.5MM" value="QWIIC_LOGO_CONNECTOR" x="33.401" y="39.1795" smashed="yes" rot="R90"/>
-<element name="LOGO8" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="31.623" y="46.99" smashed="yes" rot="MR0"/>
+<element name="LOGO8" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="92.583" y="45.72" smashed="yes" rot="MR0"/>
 <element name="H15" library="SparkFun-Hardware" package="STAND-OFF-REFLOW-M2.5" value="STAND-OFF-REFLOW2.5MM_TALL" x="44.073" y="49.828" smashed="yes">
 <attribute name="PROD_ID" value="HW-14899" x="44.073" y="49.828" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
@@ -8362,10 +8362,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CONN-14877" x="24.13" y="53.848" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="23.495" y="53.848" size="0.762" layer="27" rot="R270" align="center"/>
 </element>
-<element name="LOGO9" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.2" value="SFE_LOGO_NAME_FLAME.2_INCH" x="31.75" y="58.293" smashed="yes" rot="MR0"/>
+<element name="LOGO9" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.2" value="SFE_LOGO_NAME_FLAME.2_INCH" x="92.71" y="55.753" smashed="yes" rot="MR0"/>
 <element name="U$81" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.2" value="" x="18.034" y="66.675" smashed="yes"/>
 <element name="U$82" library="SparkFun-MicroMod" package="MICROMOD_LOGO_.5" value="" x="77.343" y="69.469" smashed="yes"/>
-<element name="U$83" library="SparkFun-MicroMod" package="MICROMOD_LOGO_.5" value="" x="31.75" y="55.753" smashed="yes" rot="MR0"/>
+<element name="U$83" library="SparkFun-MicroMod" package="MICROMOD_LOGO_.5" value="" x="92.71" y="53.213" smashed="yes" rot="MR0"/>
 <element name="J17" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="38.1" y="41.148" smashed="yes">
 <attribute name="NAME" x="36.703" y="38.989" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-13694" x="38.1" y="41.148" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
@@ -8530,7 +8530,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$117" library="output" package="##INT##0" value="" x="27.94" y="65.913" smashed="yes" rot="MR90"/>
 <element name="U$118" library="SparkFun-Boards" package="QWIIC_BOARD_MOUNT_SMD_STANDOFFS" value="QWIIC_BOARD_OUTLINESTANDOFF" x="92.71" y="53.848" smashed="yes"/>
 <element name="U$119" library="output" package="QWIIC_CARRIER_#_DOUBLE0" value="" x="64.262" y="38.608" smashed="yes"/>
-<element name="U$120" library="output" package="QWIIC_CARRIER_#_DOUBLE0" value="" x="44.958" y="53.721" smashed="yes" rot="MR0"/>
+<element name="U$120" library="output" package="QWIIC_CARRIER_#_DOUBLE0" value="" x="105.918" y="51.181" smashed="yes" rot="MR0"/>
 <element name="J22" library="SparkFun-Connectors" package="USB-C-16P-2LAYER-PADS" value="" x="115.951" y="46.736" smashed="yes" rot="R270">
 <attribute name="NAME" x="113.411" y="46.736" size="0.762" layer="25" rot="R270" align="center"/>
 <attribute name="PROD_ID" value="CONN-14122" x="115.951" y="46.736" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
@@ -8576,7 +8576,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="VALUE" x="133.858" y="42.037" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="LOGO10" library="SparkFun-Aesthetics" package="QWIIC_5.5MM" value="QWIIC_LOGO_CONNECTOR" x="143.129" y="39.1795" smashed="yes" rot="R90"/>
-<element name="LOGO11" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="141.351" y="46.99" smashed="yes" rot="MR0"/>
+<element name="LOGO11" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="202.311" y="45.72" smashed="yes" rot="MR0"/>
 <element name="H20" library="SparkFun-Hardware" package="STAND-OFF-REFLOW-M2.5" value="STAND-OFF-REFLOW2.5MM_TALL" x="153.801" y="49.828" smashed="yes">
 <attribute name="PROD_ID" value="HW-14899" x="153.801" y="49.828" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
@@ -8599,10 +8599,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CONN-14877" x="133.858" y="53.848" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="133.223" y="53.848" size="0.762" layer="27" rot="R270" align="center"/>
 </element>
-<element name="LOGO12" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.2" value="SFE_LOGO_NAME_FLAME.2_INCH" x="141.478" y="58.293" smashed="yes" rot="MR0"/>
+<element name="LOGO12" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.2" value="SFE_LOGO_NAME_FLAME.2_INCH" x="202.438" y="55.753" smashed="yes" rot="MR0"/>
 <element name="U$121" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.2" value="" x="127.762" y="66.675" smashed="yes"/>
 <element name="U$122" library="SparkFun-MicroMod" package="MICROMOD_LOGO_.5" value="" x="187.071" y="69.469" smashed="yes"/>
-<element name="U$123" library="SparkFun-MicroMod" package="MICROMOD_LOGO_.5" value="" x="141.478" y="55.753" smashed="yes" rot="MR0"/>
+<element name="U$123" library="SparkFun-MicroMod" package="MICROMOD_LOGO_.5" value="" x="202.438" y="53.213" smashed="yes" rot="MR0"/>
 <element name="J24" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="147.828" y="41.148" smashed="yes">
 <attribute name="NAME" x="146.431" y="38.989" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-13694" x="147.828" y="41.148" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
@@ -8767,7 +8767,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$157" library="output" package="##INT##0" value="" x="137.668" y="65.913" smashed="yes" rot="MR90"/>
 <element name="U$158" library="SparkFun-Boards" package="QWIIC_BOARD_MOUNT_SMD_STANDOFFS" value="QWIIC_BOARD_OUTLINESTANDOFF" x="202.438" y="53.848" smashed="yes"/>
 <element name="U$159" library="output" package="QWIIC_CARRIER_#_DOUBLE0" value="" x="173.99" y="38.608" smashed="yes"/>
-<element name="U$160" library="output" package="QWIIC_CARRIER_#_DOUBLE0" value="" x="154.686" y="53.721" smashed="yes" rot="MR0"/>
+<element name="U$160" library="output" package="QWIIC_CARRIER_#_DOUBLE0" value="" x="215.646" y="51.181" smashed="yes" rot="MR0"/>
 <element name="J29" library="SparkFun-Connectors" package="USB-C-16P-2LAYER-PADS" value="" x="6.223" y="82.804" smashed="yes" rot="R270">
 <attribute name="NAME" x="3.683" y="82.804" size="0.762" layer="25" rot="R270" align="center"/>
 <attribute name="PROD_ID" value="CONN-14122" x="6.223" y="82.804" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
@@ -8813,7 +8813,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="VALUE" x="24.13" y="78.105" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="LOGO13" library="SparkFun-Aesthetics" package="QWIIC_5.5MM" value="QWIIC_LOGO_CONNECTOR" x="33.401" y="75.2475" smashed="yes" rot="R90"/>
-<element name="LOGO14" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="31.623" y="83.058" smashed="yes" rot="MR0"/>
+<element name="LOGO14" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="92.583" y="81.788" smashed="yes" rot="MR0"/>
 <element name="H25" library="SparkFun-Hardware" package="STAND-OFF-REFLOW-M2.5" value="STAND-OFF-REFLOW2.5MM_TALL" x="44.073" y="85.896" smashed="yes">
 <attribute name="PROD_ID" value="HW-14899" x="44.073" y="85.896" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
@@ -8836,10 +8836,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CONN-14877" x="24.13" y="89.916" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="23.495" y="89.916" size="0.762" layer="27" rot="R270" align="center"/>
 </element>
-<element name="LOGO15" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.2" value="SFE_LOGO_NAME_FLAME.2_INCH" x="31.75" y="94.361" smashed="yes" rot="MR0"/>
+<element name="LOGO15" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.2" value="SFE_LOGO_NAME_FLAME.2_INCH" x="92.71" y="91.821" smashed="yes" rot="MR0"/>
 <element name="U$161" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.2" value="" x="18.034" y="102.743" smashed="yes"/>
 <element name="U$162" library="SparkFun-MicroMod" package="MICROMOD_LOGO_.5" value="" x="77.343" y="105.537" smashed="yes"/>
-<element name="U$163" library="SparkFun-MicroMod" package="MICROMOD_LOGO_.5" value="" x="31.75" y="91.821" smashed="yes" rot="MR0"/>
+<element name="U$163" library="SparkFun-MicroMod" package="MICROMOD_LOGO_.5" value="" x="92.71" y="89.281" smashed="yes" rot="MR0"/>
 <element name="J31" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="38.1" y="77.216" smashed="yes">
 <attribute name="NAME" x="36.703" y="75.057" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-13694" x="38.1" y="77.216" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
@@ -9004,7 +9004,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$197" library="output" package="##INT##0" value="" x="27.94" y="101.981" smashed="yes" rot="MR90"/>
 <element name="U$198" library="SparkFun-Boards" package="QWIIC_BOARD_MOUNT_SMD_STANDOFFS" value="QWIIC_BOARD_OUTLINESTANDOFF" x="92.71" y="89.916" smashed="yes"/>
 <element name="U$199" library="output" package="QWIIC_CARRIER_#_DOUBLE0" value="" x="64.262" y="74.676" smashed="yes"/>
-<element name="U$200" library="output" package="QWIIC_CARRIER_#_DOUBLE0" value="" x="44.958" y="89.789" smashed="yes" rot="MR0"/>
+<element name="U$200" library="output" package="QWIIC_CARRIER_#_DOUBLE0" value="" x="105.918" y="87.249" smashed="yes" rot="MR0"/>
 <element name="J36" library="SparkFun-Connectors" package="USB-C-16P-2LAYER-PADS" value="" x="115.951" y="82.804" smashed="yes" rot="R270">
 <attribute name="NAME" x="113.411" y="82.804" size="0.762" layer="25" rot="R270" align="center"/>
 <attribute name="PROD_ID" value="CONN-14122" x="115.951" y="82.804" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
@@ -9050,7 +9050,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="VALUE" x="133.858" y="78.105" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="LOGO16" library="SparkFun-Aesthetics" package="QWIIC_5.5MM" value="QWIIC_LOGO_CONNECTOR" x="143.129" y="75.2475" smashed="yes" rot="R90"/>
-<element name="LOGO17" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="141.351" y="83.058" smashed="yes" rot="MR0"/>
+<element name="LOGO17" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="202.311" y="81.788" smashed="yes" rot="MR0"/>
 <element name="H30" library="SparkFun-Hardware" package="STAND-OFF-REFLOW-M2.5" value="STAND-OFF-REFLOW2.5MM_TALL" x="153.801" y="85.896" smashed="yes">
 <attribute name="PROD_ID" value="HW-14899" x="153.801" y="85.896" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
@@ -9073,10 +9073,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CONN-14877" x="133.858" y="89.916" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="133.223" y="89.916" size="0.762" layer="27" rot="R270" align="center"/>
 </element>
-<element name="LOGO18" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.2" value="SFE_LOGO_NAME_FLAME.2_INCH" x="141.478" y="94.361" smashed="yes" rot="MR0"/>
+<element name="LOGO18" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.2" value="SFE_LOGO_NAME_FLAME.2_INCH" x="202.438" y="91.821" smashed="yes" rot="MR0"/>
 <element name="U$201" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.2" value="" x="127.762" y="102.743" smashed="yes"/>
 <element name="U$202" library="SparkFun-MicroMod" package="MICROMOD_LOGO_.5" value="" x="187.071" y="105.537" smashed="yes"/>
-<element name="U$203" library="SparkFun-MicroMod" package="MICROMOD_LOGO_.5" value="" x="141.478" y="91.821" smashed="yes" rot="MR0"/>
+<element name="U$203" library="SparkFun-MicroMod" package="MICROMOD_LOGO_.5" value="" x="202.438" y="89.281" smashed="yes" rot="MR0"/>
 <element name="J38" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="147.828" y="77.216" smashed="yes">
 <attribute name="NAME" x="146.431" y="75.057" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-13694" x="147.828" y="77.216" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
@@ -9241,7 +9241,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$237" library="output" package="##INT##0" value="" x="137.668" y="101.981" smashed="yes" rot="MR90"/>
 <element name="U$238" library="SparkFun-Boards" package="QWIIC_BOARD_MOUNT_SMD_STANDOFFS" value="QWIIC_BOARD_OUTLINESTANDOFF" x="202.438" y="89.916" smashed="yes"/>
 <element name="U$239" library="output" package="QWIIC_CARRIER_#_DOUBLE0" value="" x="173.99" y="74.676" smashed="yes"/>
-<element name="U$240" library="output" package="QWIIC_CARRIER_#_DOUBLE0" value="" x="154.686" y="89.789" smashed="yes" rot="MR0"/>
+<element name="U$240" library="output" package="QWIIC_CARRIER_#_DOUBLE0" value="" x="215.646" y="87.249" smashed="yes" rot="MR0"/>
 <element name="J43" library="SparkFun-Connectors" package="USB-C-16P-2LAYER-PADS" value="" x="6.223" y="118.872" smashed="yes" rot="R270">
 <attribute name="NAME" x="3.683" y="118.872" size="0.762" layer="25" rot="R270" align="center"/>
 <attribute name="PROD_ID" value="CONN-14122" x="6.223" y="118.872" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
@@ -9287,7 +9287,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="VALUE" x="24.13" y="114.173" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="LOGO19" library="SparkFun-Aesthetics" package="QWIIC_5.5MM" value="QWIIC_LOGO_CONNECTOR" x="33.401" y="111.3155" smashed="yes" rot="R90"/>
-<element name="LOGO20" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="31.623" y="119.126" smashed="yes" rot="MR0"/>
+<element name="LOGO20" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="92.583" y="117.856" smashed="yes" rot="MR0"/>
 <element name="H35" library="SparkFun-Hardware" package="STAND-OFF-REFLOW-M2.5" value="STAND-OFF-REFLOW2.5MM_TALL" x="44.073" y="121.964" smashed="yes">
 <attribute name="PROD_ID" value="HW-14899" x="44.073" y="121.964" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
@@ -9310,10 +9310,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CONN-14877" x="24.13" y="125.984" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="23.495" y="125.984" size="0.762" layer="27" rot="R270" align="center"/>
 </element>
-<element name="LOGO21" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.2" value="SFE_LOGO_NAME_FLAME.2_INCH" x="31.75" y="130.429" smashed="yes" rot="MR0"/>
+<element name="LOGO21" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.2" value="SFE_LOGO_NAME_FLAME.2_INCH" x="92.71" y="127.889" smashed="yes" rot="MR0"/>
 <element name="U$241" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.2" value="" x="18.034" y="138.811" smashed="yes"/>
 <element name="U$242" library="SparkFun-MicroMod" package="MICROMOD_LOGO_.5" value="" x="77.343" y="141.605" smashed="yes"/>
-<element name="U$243" library="SparkFun-MicroMod" package="MICROMOD_LOGO_.5" value="" x="31.75" y="127.889" smashed="yes" rot="MR0"/>
+<element name="U$243" library="SparkFun-MicroMod" package="MICROMOD_LOGO_.5" value="" x="92.71" y="125.349" smashed="yes" rot="MR0"/>
 <element name="J45" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="38.1" y="113.284" smashed="yes">
 <attribute name="NAME" x="36.703" y="111.125" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-13694" x="38.1" y="113.284" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
@@ -9478,7 +9478,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$277" library="output" package="##INT##0" value="" x="27.94" y="138.049" smashed="yes" rot="MR90"/>
 <element name="U$278" library="SparkFun-Boards" package="QWIIC_BOARD_MOUNT_SMD_STANDOFFS" value="QWIIC_BOARD_OUTLINESTANDOFF" x="92.71" y="125.984" smashed="yes"/>
 <element name="U$279" library="output" package="QWIIC_CARRIER_#_DOUBLE0" value="" x="64.262" y="110.744" smashed="yes"/>
-<element name="U$280" library="output" package="QWIIC_CARRIER_#_DOUBLE0" value="" x="44.958" y="125.857" smashed="yes" rot="MR0"/>
+<element name="U$280" library="output" package="QWIIC_CARRIER_#_DOUBLE0" value="" x="105.918" y="123.317" smashed="yes" rot="MR0"/>
 <element name="J50" library="SparkFun-Connectors" package="USB-C-16P-2LAYER-PADS" value="" x="115.951" y="118.872" smashed="yes" rot="R270">
 <attribute name="NAME" x="113.411" y="118.872" size="0.762" layer="25" rot="R270" align="center"/>
 <attribute name="PROD_ID" value="CONN-14122" x="115.951" y="118.872" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
@@ -9524,7 +9524,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="VALUE" x="133.858" y="114.173" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="LOGO22" library="SparkFun-Aesthetics" package="QWIIC_5.5MM" value="QWIIC_LOGO_CONNECTOR" x="143.129" y="111.3155" smashed="yes" rot="R90"/>
-<element name="LOGO23" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="141.351" y="119.126" smashed="yes" rot="MR0"/>
+<element name="LOGO23" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="202.311" y="117.856" smashed="yes" rot="MR0"/>
 <element name="H40" library="SparkFun-Hardware" package="STAND-OFF-REFLOW-M2.5" value="STAND-OFF-REFLOW2.5MM_TALL" x="153.801" y="121.964" smashed="yes">
 <attribute name="PROD_ID" value="HW-14899" x="153.801" y="121.964" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
@@ -9547,10 +9547,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CONN-14877" x="133.858" y="125.984" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="133.223" y="125.984" size="0.762" layer="27" rot="R270" align="center"/>
 </element>
-<element name="LOGO24" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.2" value="SFE_LOGO_NAME_FLAME.2_INCH" x="141.478" y="130.429" smashed="yes" rot="MR0"/>
+<element name="LOGO24" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.2" value="SFE_LOGO_NAME_FLAME.2_INCH" x="202.438" y="127.889" smashed="yes" rot="MR0"/>
 <element name="U$281" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.2" value="" x="127.762" y="138.811" smashed="yes"/>
 <element name="U$282" library="SparkFun-MicroMod" package="MICROMOD_LOGO_.5" value="" x="187.071" y="141.605" smashed="yes"/>
-<element name="U$283" library="SparkFun-MicroMod" package="MICROMOD_LOGO_.5" value="" x="141.478" y="127.889" smashed="yes" rot="MR0"/>
+<element name="U$283" library="SparkFun-MicroMod" package="MICROMOD_LOGO_.5" value="" x="202.438" y="125.349" smashed="yes" rot="MR0"/>
 <element name="J52" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="147.828" y="113.284" smashed="yes">
 <attribute name="NAME" x="146.431" y="111.125" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-13694" x="147.828" y="113.284" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
@@ -9715,7 +9715,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$317" library="output" package="##INT##0" value="" x="137.668" y="138.049" smashed="yes" rot="MR90"/>
 <element name="U$318" library="SparkFun-Boards" package="QWIIC_BOARD_MOUNT_SMD_STANDOFFS" value="QWIIC_BOARD_OUTLINESTANDOFF" x="202.438" y="125.984" smashed="yes"/>
 <element name="U$319" library="output" package="QWIIC_CARRIER_#_DOUBLE0" value="" x="173.99" y="110.744" smashed="yes"/>
-<element name="U$320" library="output" package="QWIIC_CARRIER_#_DOUBLE0" value="" x="154.686" y="125.857" smashed="yes" rot="MR0"/>
+<element name="U$320" library="output" package="QWIIC_CARRIER_#_DOUBLE0" value="" x="215.646" y="123.317" smashed="yes" rot="MR0"/>
 <element name="E$1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="-2.62381875" y="141.097" smashed="yes"/>
 <element name="E$2" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="-2.62381875" y="141.097" smashed="yes" rot="MR0"/>
 <element name="E$3" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="221.57181875" y="141.097" smashed="yes"/>
